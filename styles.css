@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  width: 100%;
+}
+
+.navbar ul {
+	list-style-type: none;
+	align: right;
+
+}
+
+.navbar {
+  	top: 0;
+  	width: 100%;
+	position : fixed;
+  	background-color: #00bee9;
+  z-index: 999999;
+}
+
+#nav-logo {
+  height : 50px;
+  width : 50px;
+  float: left;
+}
+
+
+li {
+	float: right;
+	display: inline;
+}
+
+li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 50px;
+	padding: 20px;
+	padding-right: 75px;
+	padding-left: 25px;
+  
+}
+
+li a:hover {
+	background-color: #2e86c1;
+}
+
+#projects{
+	background-color : #e6e6fa;
+  width : 100%;
+  margin : 0;
+  padding: 0;
+  
+}
+
+#contact{
+	background-color : #fff0f5;
+  width : 100%;
+  margin : 0;
+}
+
+#footer{
+  height : 10%;
+  margin : 0;
+  width : 100%;
+  background-color : #f1f1f1;
+  padding : 10px;
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-left: 20px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+
+@media only screen and (max-width: 600px) {
+  #contact {
+    visibility: hidden;
+  }
+}
+
+#profile-pic {
+  height: 400px;
+  width: 400px;
+  transform: rotate(-90deg);  
+  
+}
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+   background-color: #ffe4e1;
+  heigh: 100vh;
+}
+
